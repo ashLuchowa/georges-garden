@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georges Garden Centre</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="custom-header">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm fixed-top shadow-sm" id="main-nav">
+            <div class="container d-flex flex-row">
+                <a href="index.html" class="navbar-brand logo-style">Georges</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav btn-group">
+                        <!-- Store item -->
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside" id="product-dropdown">Store</a>
+                                <ul class="dropdown-menu nav-item shadow-sm border-0" aria-labelledby="product-dropdown">
+                                    <li class="dropend"><a href="store.html" class="dropdown-item dropdown-toggle"
+                                            data-bs-toggle="dropdown">Plants</a>
+                                        <!-- plant sub item -->
+                                        <ul class="dropdown-menu shadow-sm border-0">
+                                            <li><a href="store.html" class="dropdown-item">Fragant</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Fruits</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Herbs</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Ground Covers</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Natives</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Indoor</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Hedges</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Potted</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Roses</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Bulbs</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="store.html" class="dropdown-item">Pots</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Gifts</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Garden Tools</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Fertilisers</a></li>
+                                </ul>
+                            </li>
+
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div> <!-- collapse navbar-collapse -->
+            </div> <!-- container-fluid -->
+        </nav>
+
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- MAIN CONTENT -->
+    <div class="mt-4">
+        <!-- products -->
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Side container -->
+                <div class="col col-12 col-lg-2">
+
+                    <!-- Category -->
+                    <div class="accordion shadow" id="accordion-main">
+
+                        <!-- Sidebar Item 1 -->
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-plant" aria-expanded="true" aria-controls="collapse-plant">Plants</button>
+                            </h1>
+                            <div id="collapse-plant" class="accordion-collapse collapse show" data-bs-parent="#accordion-main">
+                                
+                                <div class="accordion-body">
+                                    <!-- sub plants -->
+                                    <ul class="list-group filter-btn">
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark all-item">All</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Fragants</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Fruits</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Herbs</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Ground-Covers</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Natives</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Indoor</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Hedges</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Potted</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Roses</a></li>
+                                        <li class="list-group-item border-0"><a href="#" class="link-dark">Bulbs</a></li>
+                                    </ul>
+                                </div> <!-- accordion-body -->
+                            </div> <!-- collapse-plant -->
+                        </div> <!-- accordion-item -->
+
+                        <!-- Sidebar Item 2 -->
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-pot" aria-expanded="false" aria-controls="collapse-pot">Pots</button>
+                            </h1>
+                            <div id="collapse-pot" class="accordion-collapse collapse" data-bs-parent="#accordion-main">
+
+                                <div class="accordion-body">
+                                    <!-- sub pots -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item border-0 disabled"><a href="https://www.youtube.com/" class="link-dark">Indoor</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Outdoor</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Hangdoor Planters</a></li>
+                                    </ul>
+                                </div> <!-- accordion-body -->
+                            </div> <!-- collapse-pot -->
+                        </div> <!-- accordion-item -->
+
+                        <!-- Sidebar Item 3 -->
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-gift" aria-expanded="false" aria-controls="collapse-gift">Gifts</button>
+                            </h1>
+                            <div id="collapse-gift" class="accordion-collapse collapse" data-bs-parent="#accordion-main">
+
+                                <div class="accordion-body">
+                                    <!-- sub gift -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Hampers</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Valentine's Day</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Plant Care</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Seeds</a></li>
+                                    </ul>
+                                </div> <!-- accordion-body -->
+                            </div> <!-- collapse-pot -->
+                        </div> <!-- accordion-item -->
+
+                        <!-- Sidebar Item 4 -->
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-tool" aria-expanded="false" aria-controls="collapse-tool">Garden Tools</button>
+                            </h1>
+                            <div id="collapse-tool" class="accordion-collapse collapse" data-bs-parent="#accordion-main">
+
+                                <div class="accordion-body">
+                                    <!-- sub tool -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Greenhouse</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Buckets</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Secateurs</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Shelving Units</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Spray Bottle</a></li>
+                                    </ul>
+                                </div> <!-- accordion-body -->
+                            </div> <!-- collapse-pot -->
+                        </div> <!-- accordion-item -->
+
+                        <!-- Sidebar Item 5 -->
+                        <div class="accordion-item">
+                            <h1 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-fertiliser" aria-expanded="false" aria-controls="collapse-fertiliser">Fertilisers</button>
+                            </h1>
+                            <div id="collapse-fertiliser" class="accordion-collapse collapse" data-bs-parent="#accordion-main">
+
+                                <div class="accordion-body">
+                                    <!-- sub fertiliser -->
+                                    <ul class="list-group">
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Organic</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Inorganic</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Nitrogen</a></li>
+                                        <li class="list-group-item border-0 disabled"><a href="#" class="link-dark">Phosphorus</a></li>
+                                    </ul>
+                                </div> <!-- accordion-body -->
+                            </div> <!-- collapse-pot -->
+                        </div> <!-- accordion-item -->
+
+                    </div> <!-- accordion-main -->
+                </div> <!-- col -->
+    
+                <!-- main products -->
+                <div class="col col-12 col-lg-10 main-product text-center">
+                    <div class="row row-gap-3">
+                        <div class="col col-12 col-md-6 col-lg-3 product-item Indoor">
+                            <a href="images/store11.jpg"><img src="images/store11.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Cactus Plant</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-md-6 col-lg-3 product-item Potted">
+                            <a href="images/store2.jpg"><img src="images/store2.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Green Leafed Plant</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-md-6 col-lg-3 product-item Indoor">
+                            <a href="images/store3.jpg"><img src="images/store3.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Cactus Plant stone</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-md-6 col-lg-3 product-item Fragants">
+                            <a href="images/store4.jpg"><img src="images/store4.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Stranger Potted Plants</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 ol-6 col-md-6 col-lg-3 product-item Fragants">
+                            <a href="images/store5.jpg"><img src="images/store5.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Another Plant</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Indoor">
+                            <a href="images/store6.jpg"><img src="images/store6.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Different kinds of Plants</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Natives">
+                            <a href="images/store7.jpg"><img src="images/store7.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Outdoor Plant</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Potted">
+                            <a href="images/store8.jpg"><img src="images/store8.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Green Leafed Plant</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Natives">
+                            <a href="images/store9.jpg"><img src="images/store9.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Caged Plant</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Indoor">
+                            <a href="images/store10.jpg"><img src="images/store10.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Heavenly Plant</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Potted">
+                            <a href="images/store11.jpg"><img src="images/store11.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Indoor Plant for Thought</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Potted">
+                            <a href="images/store1.jpg"><img src="images/store1.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Leafy Plant</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Roses">
+                            <a href="images/store3.jpg"><img src="images/store12.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Red Roses</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Fragants">
+                            <a href="images/store4.jpg"><img src="images/store13.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Flower Scent</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Hedges">
+                            <a href="images/store6.jpg"><img src="images/store14.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Hedges</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Roses">
+                            <a href="images/store7.jpg"><img src="images/store15.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">White Roses</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Bulbs">
+                            <a href="images/store8.jpg"><img src="images/store16.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Violet Plants</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Fruits">
+                            <a href="images/store9.jpg"><img src="images/store17.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Seeds Variety</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Herbs">
+                            <a href="images/store10.jpg"><img src="images/store18.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Cooking Leaves</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+
+                        <div class="col col-12 col-6 col-md-6 col-lg-3 product-item Ground-Covers">
+                            <a href="images/store11.jpg"><img src="images/store19.jpg" alt="img" class="img-fluid rounded-top shadow"></a>
+                            <div class="image-caption rounded-bottom-4 py-4 shadow">
+                                <p class="text-light">Outdoor variety</p>
+                                <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                            </div>
+                        </div>
+    
+                        
+                    </div> <!-- row row-gap-3 -->
+                </div> <!-- col col-12 col-sm-4 main-product text-center -->
+            </div> <!-- row -->
+        </div> <!-- container-fluid -->
+    </div> <!-- mt-4 -->
+    <!-- END OF CATEGORIES -->
+    
+
+    <!-- CONCLUSION STATEMENT -->
+    <div class="d-flex flex-column text-center my-4">
+        <div class="container-fluid w-50">
+            <h1>Georges Garden Center</h1>
+            <p>A beloved local establishment known for its lush selection of plants, expert gardening advice and charming
+                atmosphere that welcome both seasoned gardeners and novices
+            </p>
+        </div> <!-- container-fluid -->
+    </div> <!-- d-flex flex-column text-center -->
+    <!-- END OF CONCLUSION STATEMENT -->
+
+    <!-- FOOTER -->
+    <footer class="shadow-lg">
+        <div class="container">
+            <div class="row text-center" id="main-footer">
+                <div class="col col-12 my-5">
+                    <h2 class="text-center">subscribe to our newsletter</h2>
+                    <form>
+                        <div id="main-subscribe">
+                            <input type="email" id="email" placeholder="address@gmail.com" class="form-control my-4">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div> <!-- col -->
+            </div> <!-- row -->
+
+            <div class="row row-gap-5 text-center text-lg-start">
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <h3 class="fs-3">Categories</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Plants</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Pots</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Gifts</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark" >Garden Tools</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Fertilisers</a></li>
+                    </ul>
+                </div> <!-- col -->
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <h3 class="fs-3">Information</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">About Us</a></li>
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">Our Services</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">Latest Blogs</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark" >Featured Products</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">New Arrivals</a></li>
+                        <li class="list-group-item border-0"><a href="contact.html" class="link-dark">Contact Us</a></li>
+                    </ul>
+                </div> <!-- col -->
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <h3 class="fs-3">Services</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">Shipping</a></li>
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">Refund</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">Terms and Conditions</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark" >Order History</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">Customer Support</a></li>
+                    </ul>
+                </div> <!-- col -->
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <div>
+                        <h3 class="fs-3">Socials</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="col-12 fab fa-twitter"></i></a>
+                            <a href="#"><i class="col-12 fab fa-discord"></i></a>
+                            <a href="#"><i class="col-12 fab fa-facebook"></i></a>
+                        </div> <!-- social icons -->
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <p>&copy; Georges Garden Centre. All Rights Reserved. 2023</p>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

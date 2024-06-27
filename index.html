@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georges Garden Centre</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-sm fixed-top shadow-sm" id="main-nav">
+            <div class="container d-flex flex-row">
+                <a href="index.html" class="navbar-brand text-color logo-style">Georges</a>
+                <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav btn-group">
+                        <!-- Store item -->
+                            <li class="nav-item">
+                                <a href="#" class="nav-link dropdown-toggle text-color" data-bs-toggle="dropdown"
+                                    data-bs-auto-close="outside" id="product-dropdown">Store</a>
+                                <ul class="dropdown-menu nav-item shadow-sm border-0" aria-labelledby="product-dropdown">
+                                    <li class="dropend"><a href="store.html" class="dropdown-item dropdown-toggle"
+                                            data-bs-toggle="dropdown">Plants</a>
+                                        <!-- plant sub item -->
+                                        <ul class="dropdown-menu shadow-sm border-0">
+                                            <li><a href="store.html" class="dropdown-item">Fragant</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Fruits</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Herbs</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Ground Covers</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Natives</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Indoor</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Hedges</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Potted</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Roses</a></li>
+                                            <li><a href="store.html" class="dropdown-item">Bulbs</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="store.html" class="dropdown-item">Pots</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Gifts</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Garden Tools</a></li>
+                                    <li><a href="store.html" class="dropdown-item">Fertilisers</a></li>
+                                </ul>
+                            </li>
+
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link text-color">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link text-color">Contact</a>
+                        </li>
+                    </ul>
+                </div> <!-- collapse navbar-collapse -->
+            </div> <!-- container-fluid -->
+        </nav>
+
+        <!-- Image Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active c-item">
+                    <img src="images/image1.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption d-md-block d-md-block mb-4">
+                        <h1 class="text-uppercase">We keep your plants fresh</h1>
+                        <p class="fs-5 mb-4">Using the right tools to do the right job</p>
+                        <a href="store.html" class="read-more-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="images/image2.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption d-md-block d-md-block mb-4">
+                        <h1 class="text-uppercase">We have stores all over Australia</h1>
+                        <p class="fs-5 mb-4">You don't have to drive far to find us</p>
+                        <a href="store.html" class="read-more-btn">Explore</a>
+                    </div>
+                </div>
+                <div class="carousel-item c-item">
+                    <img src="images/image3.jpg" class="d-block w-100 c-img" alt="...">
+                    <div class="carousel-caption d-md-block d-md-block mb-4">
+                        <h1 class="text-uppercase">Natural Gardening Products</h1>
+                        <p class="fs-5 mb-4">Because we care about Earth</p>
+                        <a href="store.html" class="read-more-btn">Explore</a>
+                    </div>
+                </div>
+            </div>
+            <!-- carousel navigation -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <!-- END OF HEADER -->
+
+    <!-- WE ARE EXPERTS -->
+    <div class="main-content d-flex flex-column text-center my-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <img src="images/image4.jpg" class="img-fluid rounded-4 shadow" alt="Responsive image">
+                </div> <!-- col -->
+                <div class="col col-lg-6 d-flex flex-column justify-content-center">
+                    <h1 class="my-4">We are expert in plants!</h1>
+                    <p>We excel in all things green and growing. We have a deep passion for botany and is dedicated to nurturing the beauty of your space. Whether
+                        you are a seasoned gardener or a beginner, we have something for you.
+                    </p>
+                    <a href="about.html" class="read-more-btn">Read More</a>
+                </div> <!-- col -->
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div>
+    <!-- END OF WE ARE EXPERTS -->
+
+    <!-- FEATURED ITEMS -->
+    <div class="d-flex flex-column text-center my-4" id="main-feature">
+        <div class="container">
+            <div class="row">
+                <h1 class="my-5">Featured Roses</h1>
+            </div> <!-- row -->
+            <div class="row text-light">
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/product1.jpg" class="img-fluid rounded-top-4 shadow" alt="Responsive image">
+                    <div class="image-caption rounded-bottom-4 py-4 shadow">
+                        <p>English Roses</p>
+                        <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/product2.jpg" class="img-fluid rounded-top-4 shadow" alt="Responsive image">
+                    <div class="image-caption rounded-bottom-4 py-4 shadow">
+                        <p>Floribunda Roses</p>
+                        <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/product3.jpg" class="img-fluid rounded-top-4 shadow" alt="Responsive image">
+                    <div class="image-caption rounded-bottom-4 py-4 shadow">
+                        <p>Grandiflora Roses</p>
+                        <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/product4.jpg" class="img-fluid rounded-top-4 shadow" alt="Responsive image">
+                    <div class="image-caption rounded-bottom-4 py-4 shadow">
+                        <p>Hybrid Tea Roses</p>
+                        <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div> <!-- main-featured -->
+    <!-- END OF FEATURED ITEMS -->
+
+    <!-- NEW ARRIVALS -->
+    <div class="d-flex flex-column text-center my-4" id="main-arrival">
+        <div class="container">
+            <div class="row">
+                <h1 class="my-5">New Arrivals</h1>
+            </div> <!-- row -->
+            <div class="row text-black">
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/arrival1.jpg" class="img-fluid rounded-circle shadow" alt="Responsive image">
+                        <p class="fs-5 fw-mediuma mt-3">Cactus</p>
+                        <button class="btn btn-primary fw-medium">Add to Cart</button>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/arrival2.jpg" class="img-fluid rounded-circle shadow" alt="Responsive image">
+                        <p class="fs-5 fw-mediuma mt-3">Indoor Pots</p>
+                        <button class="btn btn-primary fw-medium">Add to Cart</button>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/arrival3.jpg" class="img-fluid rounded-circle shadow" alt="Responsive image">
+                        <p class="fs-5 fw-mediuma mt-3">Yellow Tulips</p>
+                        <button class="btn btn-primary fw-medium">Add to Cart</button>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/arrival4.jpg" class="img-fluid rounded-circle shadow" alt="Responsive image">
+                        <p class="fs-5 fw-mediuma mt-3">New Tools</p>
+                        <button class="btn btn-primary fw-medium">Add to Cart</button>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div> <!-- d-flex -->
+    <!-- END OF NEW ARRIVALS -->
+
+    <!-- LATEST BLOG -->
+    <div class="d-flex flex-column text-center my-4" id="main-blog">
+        <div class="container">
+            <div class="row">
+                <h1 class="my-5">Latest Blog</h1>
+            </div> <!-- row -->
+            <div class="row text-light">
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/blog1.jpg" class="img-fluid rounded-top-4 shadow" alt="Responsive image">
+                    <div class="image-caption rounded-bottom-4 py-4 shadow">
+                        <p>How to cultivate efficiently</p>
+                        <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/blog2.jpg" class="img-fluid rounded-top-4 shadow" alt="Responsive image">
+                    <div class="image-caption rounded-bottom-4 py-4 shadow">
+                        <p>Visit Mark's home garden</p>
+                        <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/blog3.jpg" class="img-fluid rounded-top-4 shadow" alt="Responsive image">
+                    <div class="image-caption rounded-bottom-4 py-4 shadow">
+                        <p>Gardening for small spaces</p>
+                        <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 py-2">
+                    <img src="images/blog4.jpg" class="img-fluid rounded-top-4 shadow" alt="Responsive image">
+                    <div class="image-caption rounded-bottom-4 py-4 shadow">
+                        <p>Respect the bees</p>
+                        <button class="btn btn-primary text-black feature-btn fw-medium">Add to Cart</button>
+                    </div>
+                </div>
+            </div> <!-- row -->
+            
+        </div> <!-- container -->
+    </div> <!-- d-flex -->
+    <!-- END OF LATEST BLOG -->
+
+    <!-- CONCLUSION STATEMENT -->
+    <div class="d-flex flex-column text-center my-5">
+        <div class="container-fluid w-50">
+            <h1>Georges Garden Centre</h1>
+            <p>A beloved local establishment known for its lush selection of plants, expert gardening advice and charming
+                atmosphere that welcome both seasoned gardeners and novices
+            </p>
+        </div> <!-- container-fluid -->
+    </div> <!-- d-flex flex-column text-center -->
+    <!-- END OF CONCLUSION STATEMENT -->
+
+    <!-- FOOTER -->
+    <footer class="shadow-lg">
+        <div class="container">
+            <div class="row text-center" id="main-footer">
+                <div class="col col-12 my-5">
+                    <h2 class="text-center">subscribe to our newsletter</h2>
+                    <form>
+                        <div id="main-subscribe">
+                            <input type="email" id="email" placeholder="address@gmail.com" class="form-control my-4">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div> <!-- col -->
+            </div> <!-- row -->
+
+            <div class="row row-gap-5 text-center text-lg-start">
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <h3 class="fs-3">Categories</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Plants</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Pots</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Gifts</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark" >Garden Tools</a></li>
+                        <li class="list-group-item border-0"><a href="store.html" class="link-dark">Fertilisers</a></li>
+                    </ul>
+                </div> <!-- col -->
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <h3 class="fs-3">Information</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">About Us</a></li>
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">Our Services</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">Latest Blogs</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark" >Featured Products</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">New Arrivals</a></li>
+                        <li class="list-group-item border-0"><a href="contact.html" class="link-dark">Contact Us</a></li>
+                    </ul>
+                </div> <!-- col -->
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <h3 class="fs-3">Services</h3>
+                    <ul class="list-group">
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">Shipping</a></li>
+                        <li class="list-group-item border-0"><a href="about.html" class="link-dark">Refund</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">Terms and Conditions</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark" >Order History</a></li>
+                        <li class="list-group-item border-0"><a href="index.html" class="link-dark">Customer Support</a></li>
+                    </ul>
+                </div> <!-- col -->
+                <div class="col col-12 col-sm-4 col-lg-3">
+                    <div>
+                        <h3 class="fs-3">Socials</h3>
+                        <div class="social-icons">
+                            <a href="#"><i class="col-12 fab fa-twitter"></i></a>
+                            <a href="#"><i class="col-12 fab fa-discord"></i></a>
+                            <a href="#"><i class="col-12 fab fa-facebook"></i></a>
+                        </div> <!-- social icons -->
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <p>&copy; Georges Garden Centre. All Rights Reserved. 2023</p>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </footer>
+    <!-- END OF FOOTER -->
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
